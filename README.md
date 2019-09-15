@@ -25,11 +25,14 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 - [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
+> Answer: With client-side routing, instead of the App making request to the server for each page loaded, all requests to the server are blocked and and handled internally by the JavaScript. The JavaScript only loads the parts of the page that change instead of reloading and rerendering the entire page. This has a couple of benefits. First, client-side routing is usually faster than server-side because less data is being processed. For example, if you click on an “about us” link the JavaScript only loads the “about us” components rather than requesting a new page and reloading with an entirely new page. Second, because client-side routing processes less data, transitions and animations rendered are much smoother and cleaner.
+
 - [ ] What does AJAX stand for?
-> Answer:
+> Answer: AJAX stands for Asynchronous JavaScript And Xml. AJAX makes it possible for pages to be updated asynchronously or that specified parts of the page can be updated without having to reload the entire page. 
+
 - [ ] What are `controlled components` in React?
-> Answer:
+> Answer: In react components are either controlled or uncontrolled. Controlled components are controlled by the developer via state as opposed to uncontrolled components which are controlled by the HTML DOM in the browser.
+
 
 
 ## Project Set Up

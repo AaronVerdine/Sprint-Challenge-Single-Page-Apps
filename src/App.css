@@ -39,18 +39,21 @@ body {
   color: white;
 }
 
-.characters-list-wrapper {
+/* .characters-list-wrapper {
+  padding-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+} */
+
+.character-list-grid-view {
   padding-top: 40px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-.character-list-grid-view {
-  /* display: flex; */
-}
-
-.character-card  {
+.character-card {
   width: 30%;
   max-width: 265px;
   min-width: 220px;
@@ -82,7 +85,6 @@ body {
   margin-top: 8px;
   font-size: 24px;
   cursor: pointer;
-
 }
 
 .character-card > p {
@@ -136,7 +138,7 @@ body {
   transition-delay: 0s;
 }
 
- head.ui.center {
+head.ui.center {
   display: none;
   border: 1pt solid red !important;
 }

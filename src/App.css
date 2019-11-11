@@ -46,6 +46,10 @@ body {
   justify-content: center;
 }
 
+.character-list-grid-view {
+  /* display: flex; */
+}
+
 .character-card  {
   width: 30%;
   max-width: 265px;
@@ -78,6 +82,7 @@ body {
   margin-top: 8px;
   font-size: 24px;
   cursor: pointer;
+
 }
 
 .character-card > p {
@@ -92,6 +97,11 @@ body {
   position: relative;
   top: -60px;
   margin-bottom: -60px;
+}
+
+.card-header h4 {
+  margin-top: 5px;
+  line-height: 0%;
 }
 
 .character-info-wrapper {
@@ -124,4 +134,9 @@ body {
 .nav-buttons > a:active {
   box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
   transition-delay: 0s;
+}
+
+ head.ui.center {
+  display: none;
+  border: 1pt solid red !important;
 }

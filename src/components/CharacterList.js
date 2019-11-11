@@ -24,7 +24,7 @@ export default function CharacterList(props) {
   }, []);
 
   return (
-    <section className="character-list grid-view">
+    <section className="character-list-grid-view">
       <div className="">
         {characters.map(character => (
           <CharacterCard
@@ -32,6 +32,8 @@ export default function CharacterList(props) {
             gender={character.gender}
             species={character.species}
             image={character.image}
+            created={character.created}
+            status={character.status}
           />
         ))}
       </div>

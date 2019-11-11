@@ -9,10 +9,10 @@ import CharacterList from "./components/CharacterList";
 export default function App() {
   return (
     <main>
-      <Header />
+      {/* <Header /> */}
       {/* <WelcomePage /> */}
-      {/* <TabNav /> */}
-      <CharacterList />
+      <TabNav />
+      {/* <CharacterList /> */}
       {/* <LocationsList/> */}
     </main>
   );

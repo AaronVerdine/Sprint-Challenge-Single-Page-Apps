@@ -7,8 +7,8 @@ export default function EpisodeCard(props) {
   console.log(props);
 
   return (
-    <div>
-      <Card.Group stackable={false} className="character-card">
+    <div className="character-card">
+      <Card.Group stackable={false}>
         <Card color="orange" raised={true}>
           <Card.Content>
             <Card.Header className="card-header">{props.name}</Card.Header>

@@ -7,8 +7,8 @@ export default function EpisodeCard(props) {
   // console.log(props);
 
   return (
-    <>
-      <Card.Group stackable={false} className="character-card">
+    <div className="character-card">
+      <Card.Group stackable={false}>
         <Card color="orange" raised={true}>
           <Image src={props.image} />
           <Card.Content>
@@ -20,6 +20,6 @@ export default function EpisodeCard(props) {
           </Card.Content>
         </Card>
       </Card.Group>
-    </>
+    </div>
   );
 }
